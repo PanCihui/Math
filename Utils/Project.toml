@@ -2,3 +2,6 @@ name = "Utils"
 uuid = "9c4947a7-61aa-4f32-bcde-f43312462fd8"
 authors = ["PanCihui <cihui.pan@foxmail.com>"]
 version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
