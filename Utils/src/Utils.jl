@@ -18,4 +18,11 @@ include("nearest_neighbor.jl")
 export k_nearest_neighbors
 include("k_nearest_neighbors.jl")
 
+export hailstone
+include("hailstone.jl")
+
+export cross_entropy_method
+include("cross_entropy_method.jl")
+
+
 end # module
