@@ -39,5 +39,8 @@ include("neural_network.jl")
 export multi_layer_neural_network
 include("multi_layer_neural_network.jl")
 
+export insertion_sort!
+include("insertion_sort_ex.jl")
+
 
 end # module
