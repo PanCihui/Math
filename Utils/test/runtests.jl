@@ -10,6 +10,7 @@ include("test_k_nearest_neighbors.jl")
 #include("test_quine.jl")
 include("test_hailstone.jl")
 include("test_cross_entropy_method.jl")
-
+include("test_gradient_descent.jl")
+include("test_loss_functions.jl")
 
 
