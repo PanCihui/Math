@@ -3,7 +3,7 @@ using LinearAlgebra
 𝟙(b) = b ? 1 : 0
 σ(z) = 1/(1 + exp(-z))
 
-ŷ(x, 𝐰, φ, g=𝐱->𝐱)           = g(𝐰⋅φ(x))
+ŷ(x, 𝐰, φ, g=𝐱->𝐱)           = g(𝐰 ⋅φ(x))
 margin(x, y, 𝐰, φ, g=𝐱->𝐱)   = ŷ(x, 𝐰, φ, g)*y
 residual(x, y, 𝐰, φ, g=𝐱->𝐱) = ŷ(x, 𝐰, φ, g) - y
 
