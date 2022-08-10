@@ -24,10 +24,20 @@ include("hailstone.jl")
 export cross_entropy_method
 include("cross_entropy_method.jl")
 
+export 𝟙, σ, ŷ, margin, residual, loss_01, loss_absdev, loss_squared, loss_hinge, loss_logistic, loss_cross_entropy, ∇loss_absdev, ∇loss_squared, ∇loss_hinge, ∇loss_logistic, ∇loss_cross_entropy
+include("loss_functions.jl")
+
 export gradient_descent
 include("gradient_descent.jl")
 
-export 𝟙, σ, ŷ, margin, residual, loss_01, loss_absdev, loss_squared, loss_hinge, loss_logistic, loss_cross_entropy, ∇loss_absdev, ∇loss_squared, ∇loss_hinge, ∇loss_logistic, ∇loss_cross_entropy
-include("loss_functions.jl")
+export stochastic_gradient_descent
+include("stochastic_gradient_descent.jl")
+
+export neural_network, ReLU
+include("neural_network.jl")
+
+export multi_layer_neural_network
+include("multi_layer_neural_network.jl")
+
 
 end # module
