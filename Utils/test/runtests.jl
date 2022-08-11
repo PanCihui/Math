@@ -16,5 +16,6 @@ include("test_stochastic_gradient_descent.jl")
 include("test_neural_network.jl")
 include("test_multi_layer_neural_network.jl")
 include("test_insertion_sort_ex.jl")
+include("test_k_means_clustering.jl")
 
 

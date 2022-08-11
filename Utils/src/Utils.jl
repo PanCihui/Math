@@ -42,5 +42,7 @@ include("multi_layer_neural_network.jl")
 export insertion_sort!
 include("insertion_sort_ex.jl")
 
+export k_means_clustering
+include("k_means_clustering.jl")
 
 end # module
