@@ -45,4 +45,11 @@ include("insertion_sort_ex.jl")
 export k_means_clustering
 include("k_means_clustering.jl")
 
+export newtons_method
+include("newtons_method.jl")
+
+export radial_basis_regression
+include("radial_basis_regression.jl")
+
+
 end # module
