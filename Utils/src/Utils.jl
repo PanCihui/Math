@@ -57,6 +57,8 @@ include("gaussian_process_kernels.jl")
 export GaussianProcess
 include("gaussian_process.jl")
 
+export em_algorithm
+include("em_algorithm.jl")
 
 
 end # module
